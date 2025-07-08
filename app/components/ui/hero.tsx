@@ -59,8 +59,8 @@ export default function Heros(): JSX.Element {
     });
 
     const gridMesh = new THREE.Mesh(geometry, material);
-    gridMesh.rotation.x = -Math.PI / 2;
-    gridMesh.position.y = -1; // ⬅️ Raised grid slightly
+    gridMesh.rotation.x = -Math.PI / 1;
+    gridMesh.position.y = -5; // ⬅️ Raised grid slightly
     scene.add(gridMesh);
 
     const clock = new THREE.Clock();
